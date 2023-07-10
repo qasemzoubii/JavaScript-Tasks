@@ -14,11 +14,11 @@ console.log(zakat)
 Array Tasks : 
 1
 Correct the syntax error
- [ 1,7  9  45, ]
+[ 1,7  9  45, ]
 
- ["Str" "alex","moh"
+["Str" "alex","moh"
 
- 'the','fox' 'over' lazy, 'dog',  ]
+'the','fox' 'over' lazy, 'dog',  ]
 
 */
 const num =  [ 1 , 7 , 9 , 45 ];
@@ -80,6 +80,8 @@ Ex: lastOfArray(["t","u","g","x"]) => "x"
 let lastOfArray=[1,4,5]; 
 let x=lastOfArray[lastOfArray.length-1];
 console.log(x);
+let secondArr=["t", "u", "g", "x"];
+let m = [secondArr.length-1];
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
@@ -101,12 +103,15 @@ console.log(array);
 Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
 
 var array2 = [5,9,-7,3.5]
+***********= [1,3,4,6,8,9,10]
 */
-var array2 = [5,9,-7,3.5];
-console.log(array2.push(1,3)) //return new length
-console.log(array2.pop(1)) //return removed element
-console.log(array2.unshift())// return new length
-console.log(array2.shift())//return new length
+var arrayy2 = []
+arrayy2.unshift(5)
+arrayy2.unshift(3)
+arrayy2.unshift(-7)
+arrayy2.unshift(9)
+arrayy2.unshift(5)
+console.log(arrayy2);
 
 /*
 8.
