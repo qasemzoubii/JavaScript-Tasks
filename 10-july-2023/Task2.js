@@ -22,7 +22,7 @@ Output : The sign is - */
 /******* Start Your Code *********/
 
 let x = 3 , y = -7, z = 2;
-if (x > y) {
+if (x * y * z > 0) {
   alert("The sign is +");
 } else {
   alert("The sign is -");
@@ -158,9 +158,6 @@ for(let i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
 }
-
-
-
 
 
 /* 
