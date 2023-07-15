@@ -21,7 +21,9 @@ Sample numbers : 3, -7, 2
 Output : The sign is - */
 /******* Start Your Code *********/
 
-let x = 3 , y = -7, z = 2;
+let x = 3,
+  y = -7,
+  z = 2;
 if (x * y * z > 0) {
   alert("The sign is +");
 } else {
@@ -79,35 +81,40 @@ Sample numbers : -5, -2, -6, 0, -1
 Output : 0 */
 /******* Start Your Code *********/
 
-let x1 = -5, y1 = -2, z1 = -6, n1 = 0, b1 = -1, temp = 0;
+let x1 = -5,
+  y1 = -2,
+  z1 = -6,
+  n1 = 0,
+  b1 = -1,
+  largest = 0;
 if (x1 > y1) {
-  temp = x1;
+  largest = x1;
 } else {
-  temp = y1;
+  largest = y1;
 }
 
-if (temp < z1) {
-  temp = z1;
+if (largest < z1) {
+  largest = z1;
 }
-if (temp < n1) {
-  temp = n1;
+if (largest < n1) {
+  largest = n1;
 }
-if (temp < b1) {
-  temp = b1;
+if (largest < b1) {
+  largest = b1;
 }
-console.log(temp);
+console.log(largest);
 
 /******* End Your Code ********* */
 
 /* 5.Write the if statement to display "Hello World" if x is greater than y, otherwise alert "Goodbye".*/
 /******* Start Your Code *********/
 
-let x2=4 , y2=8;
-if(x2>y2){
+let x2 = 4,
+  y2 = 8;
+if (x2 > y2) {
   console.log("Hello world");
-}
-else{
-  console.log("Goodbye")
+} else {
+  console.log("Goodbye");
 }
 /******* End Your Code ********* */
 
@@ -124,41 +131,39 @@ switch (true) {
   case GPAValue < 50:
     console.log("Fail");
     break;
-  case GPAValue > 50 && GPAValue < 59:
+  case  GPAValue <= 59:
     console.log("E");
     break;
-  case GPAValue > 60 && GPAValue < 69:
+  case GPAValue <= 69:
     console.log("D");
     break;
-  case GPAValue > 70 && GPAValue < 79:
+  case  GPAValue <= 79:
     console.log("C");
     break;
-  case GPAValue > 80 && GPAValue < 89:
+  case  GPAValue <= 89:
     console.log("B");
     break;
-  case GPAValue > 90 && GPAValue < 100:
+  case  GPAValue <= 100:
     console.log("A");
     break;
 }
 
 // 1. Write a JS code to print numbers from 1 to 10
 
-for(var i=1 ;i<=10 ;i++){
+for ( i = 1; i <= 10; i++) {
   console.log(i);
 }
-
 
 /*2. Write a JS code to print Even numbers in arr :
    var arr = [13,23,12,45,22,48,66,100]
 */
-var arr = [13,23,12,45,22,48,66,100];
+var arr = [13, 23, 12, 45, 22, 48, 66, 100];
 
-for(let i = 0; i < arr.length; i++) {
-    if(arr[i] % 2 === 0) {
-        console.log(arr[i]);
-    }
+for ( i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 == 0) {
+    console.log(arr[i]);
+  }
 }
-
 
 /* 
 3. Write a JS code to print a pattern using for loop
@@ -173,16 +178,15 @@ for(let i = 0; i < arr.length; i++) {
    1 2 3 4 5 6 7 8 
 */
 
-for (let i = 1; i <= 8; i++) {
-  let triangle = '';
+for ( i = 1; i <= 8; i++) {
+  let triangle = "";
   for (let j = 1; j <= i; j++) {
-    triangle += j + ' ';
+    triangle += j + " ";
   }
   console.log(triangle);
 }
 
-
- /* 
+/* 
  Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
 let x = "don’t know why"
 */

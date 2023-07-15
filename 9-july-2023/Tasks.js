@@ -82,6 +82,7 @@ let x=lastOfArray[lastOfArray.length-1];
 console.log(x);
 let secondArr=["t", "u", "g", "x"];
 let m = [secondArr.length-1];
+console.log(m);
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
@@ -105,13 +106,13 @@ Using the console try to figure out what the thing thats (push, unshift, shift, 
 var array2 = [5,9,-7,3.5]
 ***********= [1,3,4,6,8,9,10]
 */
-var arrayy2 = []
-arrayy2.unshift(5)
-arrayy2.unshift(3)
-arrayy2.unshift(-7)
-arrayy2.unshift(9)
-arrayy2.unshift(5)
-console.log(arrayy2);
+var array2 = []
+array2.unshift(5)
+array2.unshift(3)
+array2.unshift(-7)
+array2.unshift(9)
+array2.unshift(5)
+console.log(array2);
 
 /*
 8.
