@@ -1,18 +1,23 @@
 let box = document.createElement("div");
 let paragraph = document.createElement("p");
-paragraph.textContent = "Hello World !";
+paragraph.innerHTML = "Hello World !";
 box.appendChild(paragraph);
+// let txt;
 
 // Add event listener for mouseover
 box.addEventListener("mouseover",() => {
-        paragraph.textContent = "Can i help you ?";
+    // txt = document.createTextNode('Can i help you ?');
+    // paragraph.appendChild(txt);
+        paragraph.innerHTML = "Can i help you ?";
     }); 
 
 
 // Add event listener for mouseout
 box.addEventListener("mouseout",()=>
 {
-    paragraph.textContent = "Hello World !";
+    // txt = document.createTextNode('Hello World !');
+    // paragraph.appendChild(txt);
+    paragraph.innerHTML = "Hello World !";
 }); 
 
 //styling

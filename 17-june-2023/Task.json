@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Qasem",
+        "age": 23,
+        "major": "Computer science",
+        "university": "Jadara",
+        "image": "https://scontent.famm11-1.fna.fbcdn.net/v/t39.30808-6/350015902_256981830246699_4248649520064331569_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGrmjLf96QNeG9tiWTbAy3XPGkZz8v3w5g8aRnPy_fDmFwwTXh50HFO2ueanxPA0U4NS-pWJGHy4FOKja40hOx5&_nc_ohc=9qo19ZKBdKQAX8upGhI&_nc_ht=scontent.famm11-1.fna&oh=00_AfAoLA8h2hWqol87_Uy8ALaX04LVZ61EM71FFMv6j04fmw&oe=64BB3BB8"
+    },
+    {
+        "name": "Murad-Elzero",
+        "age": 26,
+        "major": "engineer",
+        "university": "Yarmouk",
+        "image": "https://scontent.famm11-1.fna.fbcdn.net/v/t39.30808-6/269083289_3175891719312275_4385889287505647495_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH4swcM2qK2yFCeI1q2K4Bshz3VzyJUpp6HPdXPIlSmnviZtIfge004pC4655EXuG56vfJXdo2Af1NhgBy6uQvO&_nc_ohc=HNESCxNdhSEAX9wIluO&_nc_ht=scontent.famm11-1.fna&oh=00_AfA89_HY7ddTJsQFUJVJaU92b5hK2tYL2xVTbiBa3ns5Jg&oe=64BB2AB9"
+    },
+    {
+        "name": "Amrabet",
+        "age": 20,
+        "major": "Computer science",
+        "university": "JUST",
+        "image": "https://scontent.famm11-1.fna.fbcdn.net/v/t1.18169-9/28279551_430898297344993_2542129473459508845_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeF9OVrj4-Nb9lw7NihtVTT0lT9P9NrwnrSVP0_02vCetJcGDz13xaUubM8meHyUr44t8IH7PHz4JopKpx46XeG7&_nc_ohc=tTz1U_-K26IAX_0g07y&_nc_ht=scontent.famm11-1.fna&oh=00_AfDEZnLMf9Or-n30xR5aLcmymKAlQWMUFsOa9s1fApuTPA&oe=64DD38E9"
+    },
+    {
+        "name": "Ghzawi",
+        "age": "23",
+        "major": "engineer",
+        "university": "JU",
+        "image": "https://scontent.famm11-1.fna.fbcdn.net/v/t39.30808-6/273776048_5205573989476643_2497910827468397794_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF8UPfXEMc1Kaoc7mOKEKwOprmIUYafc42muYhRhp9zjTlto3GWDEjasqDb6jgLZ6z-Tutp-xroRU7rLUSETUc_&_nc_ohc=3RAo2OqSY_0AX9eyCRs&_nc_ht=scontent.famm11-1.fna&oh=00_AfCNFabYhdAr00YxIdAYpCnHwFIF6P3akLJBwiMnIuw6jw&oe=64BB9E21"
+    },
+    {
+        "name": "Omar",
+        "age": 21,
+        "major": "Computer science",
+        "university": "Yarmouk",
+        "image": "https://scontent.famm11-1.fna.fbcdn.net/v/t39.30808-6/312651501_2682886071848408_3301351095419232066_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGspzM8PNQRnyiGX-mU3kizZfY4iswi-YBl9jiKzCL5gGjGKONPbYyEhEj__WujmSnxayizqWQfHev1pdjJcjh9&_nc_ohc=x5aoLQKVUTcAX87gPeo&_nc_ht=scontent.famm11-1.fna&oh=00_AfBqPlV5Z5DhlspMAwyEtB8oc04-DqlTLVK2x3MARWBtlg&oe=64B9AC76"
+    }
+]
