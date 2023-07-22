@@ -299,7 +299,7 @@ Ex: shorterString("air","tr","car","github","by")
 
 */
 
-function shorterString(str1, str2, str3, str4, str5) {
+function  (str1, str2, str3, str4, str5) {
   const strings = [str1, str2, str3, str4, str5];
   let shortestStringVal = strings[0];
 

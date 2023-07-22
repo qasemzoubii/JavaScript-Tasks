@@ -50,7 +50,7 @@ if (number1 > number2 && number1 > number3) {
     alert(
       "The sorted numbers are: " + number1 + ", " + number3 + ", " + number2
     );
-  }
+  } 
 } else if (number2 > number1 && number2 > number3) {
   if (number1 > number3) {
     alert(

@@ -12,15 +12,15 @@ boldElement.addEventListener("change", applyStyles);
 underlineElement.addEventListener("change", applyStyles);
 
 function applyStyles() {
-    let fontFamily = selectorElement.value;
-    let fontSize = selector2Element.value;
-    let fontStyle = italicElement.checked ? "italic" : "normal";
-    let fontWeight = boldElement.checked ? "bold" : "normal";
-    let textDecoration = underlineElement.checked ? "underline" : "none";
+  let fontFamily = selectorElement.value;
+  let fontSize = selector2Element.value;
+  let fontStyle = italicElement.checked ? "italic" : "normal";
+  let fontWeight = boldElement.checked ? "bold" : "normal";
+  let textDecoration = underlineElement.checked ? "underline" : "none";
 
-boxElement.style.fontFamily = fontFamily;
-boxElement.style.fontSize = fontSize;
-boxElement.style.fontStyle = fontStyle;
-boxElement.style.fontWeight = fontWeight;
-boxElement.style.textDecoration = textDecoration;
+  boxElement.style.fontFamily = fontFamily;
+  boxElement.style.fontSize = fontSize;
+  boxElement.style.fontStyle = fontStyle;
+  boxElement.style.fontWeight = fontWeight;
+  boxElement.style.textDecoration = textDecoration;
 }

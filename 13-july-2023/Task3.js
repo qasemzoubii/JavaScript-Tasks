@@ -3,7 +3,7 @@ flag.style.display = "block";
 let image = document.createElement("img");
 image.src = "/13-july-2023/Flag_of_Jordan.svg.png";
 document.body.appendChild(image);
-image.style.width = "700px";
+image.style.width = "500px";
 flag.addEventListener("change", () => {
 if (flag.value === "Palestine") {
 image.src = "/13-july-2023/Flag_of_Palestine.png";

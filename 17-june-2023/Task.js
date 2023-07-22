@@ -4,7 +4,7 @@ btn.addEventListener("click", function () {
   let x = new XMLHttpRequest();
   x.open("GET", "Task.json");
   x.onload = function () {
-    let jsondata = JSON.parse(x.responseText);
+    let jsondata = JSON.parse(this.responseText);
     for (let i = 0; i < jsondata.length; i++) {
       let row = document.createElement("tr");
       tbl.appendChild(row);
